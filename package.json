@@ -9,7 +9,6 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
     "@types/node": "^18",
     "nuxt": "^3.6.0",
     "prisma": "^4.16.1",
