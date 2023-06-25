@@ -10,55 +10,12 @@ Make sure to install the dependencies:
 # npm
 npm install
 
-# pnpm
-pnpm install
+npx prisma migrate dev --name init
 
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Development Mode
 npm run dev
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+# Production 
 npm run build
 
-# pnpm
-pnpm run build
 
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-"# nuxt-prisma" 
